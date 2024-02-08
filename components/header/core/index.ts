@@ -1,7 +1,7 @@
 import { html } from 'lit';
 
 import { Button } from './../../button/core';
-import './header.css';
+import './index.css';
 
 export const Header = ({ user, onLogin, onLogout, onCreateAccount }) => html`
   <header>
